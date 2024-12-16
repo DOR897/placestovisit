@@ -14,7 +14,7 @@ You need to clone the repository:```git clone https://github.com/EASS-HIT-PART-A
 then go the app name ```cd placestovisit```
 
 after that u can use docker to run the up with those two commands:
-```docker compose build``` first and then ```docker compose up```
+```docker-compose build``` first and then ```docker-compose up```
 and u will see the up running at http://localhost:8501 where u can add places to the DB and delete also.
 u can see a map which can show u countries and places u think about adding to the app DB.
 
