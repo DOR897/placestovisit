@@ -1,0 +1,22 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./cool-places-backend
+    ports:
+      - 8800:8800
+    depends_on:
+      - database
+  frontend:
+    build:
+      context: ./cool-places-frontend
+    ports:
+      - 8501:8501
+    depends_on:
+      - backend
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: Dor
+      POSTGRES_PASSWORD: Dor8
+      POSTGRES_DB: locationsDb
