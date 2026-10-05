@@ -27,7 +27,13 @@ after that ``docker build -t my-fa -f./nginx.Dockerfile`` and ``docker build -t 
 
 Once the image is built, you can run it using the docker run command:
 
-``docker run -p 8800:8800 my-fastapi-app`` This will start the FastAPI application in a container and map port 8800 on the container to port 8800 on the host machine. You can then access the application by navigating to http://localhost:8800/docs in a web browser or making requests to it programmatically.
+``docker run -p 8800:8800 my-fastapi-app`` This will start the FastAPI application in a container and map port 8800 on the container to port 
+8800 on the host machine. You can then access the application by navigating to http://localhost:8800/docs in a web browser or making requests to it programmatically.
 and that's it u can create,update and delete and also view the current locations in the appAPI.
 
 ``python -m pytest test.py``
+
+## A short video Demonstrating
+https://youtu.be/jC44vWzlSvE
+
+
