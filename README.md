@@ -34,6 +34,6 @@ and that's it u can create,update and delete and also view the current locations
 ``python -m pytest test.py``
 
 ## A short video Demonstrating
-https://youtu.be/jC44vWzlSvE
+https://youtu.be/watch?v=jC44vWzlSvE
 
 
