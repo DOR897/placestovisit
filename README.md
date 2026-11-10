@@ -18,8 +18,6 @@ after that u can use docker to run the up with those two commands:
 and u will see the up running at "http://localhost:8501" where u can add places to the DB and delete also.
 u can see a map which can show u countries and places u think about adding to the app DB.
 
-## A demo for the app 
-
 ## HOW TO CREATE,UPDATE AND DELETE PLACES VIA THE RUNNING ONLY BACKEND
 if u want to edit the places and update u can navgite to the backend:
 U need to use the command 'cd cool-places-backend' after u clone the app.
@@ -33,7 +31,7 @@ and that's it u can create,update and delete and also view the current locations
 
 ``python -m pytest test.py``
 
-## A short video Demonstrating
+## A short Demo video 
 https://youtu.be/watch?v=jC44vWzlSvE
 
 
